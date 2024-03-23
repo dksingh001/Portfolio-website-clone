@@ -214,7 +214,9 @@
   .dev-pic img {
     margin-top: 60px;
     padding: 20px;
-    width: 70%;
+    /* width: 70%; */
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     border: 1px solid red;
   }
@@ -286,7 +288,9 @@
   .dev-pic img {
     margin: 60px;
     padding: 20px;
-    width: 70%;
+    /* width: 70%; */
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     border: 1px solid red;
   }
