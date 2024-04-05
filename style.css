@@ -295,6 +295,17 @@
     border: 1px solid red;
   }
 }
+.main-home{
+  background-color: #081b29;
+}
+
+.child-home{
+  padding: 0px 80px;
+  max-width: 1530px;
+  width: 100%;
+  margin: auto;
+  /* position: absolute; */
+}
 
 /* about */
 
@@ -356,6 +367,13 @@
   border-radius: 8px;
 }
 
+.about2{
+  background-color: #112e42;;
+  padding: 0px 80px;
+  max-width: 1530px;
+  width: 100%;
+  margin: auto;
+}
 /* education  */
 
 
@@ -559,7 +577,25 @@
   }
 }
 
+.education1{
+  background-color: #081b29;
+  padding: 0px 80px;
+  max-width: 1530px;
+  width: 100%;
+  margin: auto;
+}
+
+
+
 /*  Skills -section */
+.skills1{
+  background-color: #112e42;
+  padding: 0px 80px;
+  max-width: 1530px;
+  width: 100%;
+  margin: auto;
+}
+
 
 @media screen and (max-width: 575px) {
   .skills {
@@ -891,7 +927,8 @@
     border-radius: 12px;
   }
   .card-container {
-    margin: 12%;
+    /* margin: 12%; */
+    margin-top: 30px;
     border-radius: 12px;
     border: 2px solid #112e42;
     box-shadow: 5px 5px 5px #112e42;
@@ -912,6 +949,7 @@
     background-color: #081b29;
   }
   .project-subdetails {
+    gap: 4px;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -948,6 +986,7 @@
     /* border: 2px solid red; */
   }
   .project-subdetails{
+    gap: 50px;
     display: flex;
     justify-content: space-around;
   }
@@ -980,6 +1019,7 @@
   }
 
   .project-subdetails{
+    gap: 60px;
     display: flex;
     justify-content: space-evenly;
   }
@@ -1291,4 +1331,21 @@
   color: #002147;
   border: 2px solid #00abf0;
   background-color: #00abf0;
+}
+
+
+@media (max-width:550px) {
+
+  .child-home{
+    padding: 0px 20px;
+  }
+  .skills1{
+    padding: 0px 20px;
+  }
+  .education1{
+    padding: 0px 20px;
+  }
+  .about2{
+     padding: 0px 20px;
+  }
 }
