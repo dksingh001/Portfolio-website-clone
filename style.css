@@ -34,13 +34,13 @@
     width: 100%;
   }
   .home-content {
-    padding: 30px;
+    padding: 30px 10px;
     width: 100%;
     /* height: 90vh; */
   }
 
   .home-content h1 {
-    padding: 10px;
+    /* padding: 10px; */
     text-align: left;
     color: blueviolet;
     font-size: 50px;
@@ -49,7 +49,7 @@
       sans-serif;
   }
   .text-animate {
-    padding: 5px;
+    /* padding: 5px; */
     text-align: left;
     color: blue;
     font-size: 30px;
@@ -57,9 +57,10 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .home-content p {
-    padding: 5px;
+    /* padding: 5px; */
     font-size: 15px;
     font-weight: 300;
+    text-align: justify;
   }
 
   .btn-box {
@@ -360,6 +361,7 @@
   font-size: 20px;
   font-weight: 500;
   font-family: sans-serif;
+  text-align: justify;
   /* padding: 10px;
   padding-left: 10%;
   padding-right: 10%; */
@@ -386,7 +388,7 @@
 /* education  */
 
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 555px) {
   .education {
     padding: 5px;
     background-color: #081b29;
@@ -404,13 +406,13 @@
   }
 
   .education-row {
-    padding: 10px;
-    margin: 10px;
+    padding: 10px 0px;
+    margin: 10px 0px;
     /* display: grid;
         grid-template-columns: 6fr 6fr; */
   }
   .education-column {
-    padding: 10px;
+    padding: 10px 0px;
     margin: 10px;
   }
   .title {
@@ -433,6 +435,7 @@
   p {
     padding: 2px;
     color: white;
+    text-align: justify;
   }
 }
 
@@ -608,17 +611,17 @@
 
 @media screen and (max-width: 575px) {
   .skills {
-    padding: 20px;
+    padding: 20px 12px;
     background-color: #112e42;
   }
   .skills-container {
-    padding: 10px;
+    padding: 10px 0px;
     /* display: grid;
         grid-template-columns: 6fr 6fr; */
   }
 
   .skills-row {
-    padding: 10px;
+    padding: 10px 0px;
   }
   .skills-column {
     padding: 10px;
@@ -930,14 +933,21 @@
   }
   .project-details {
     /* display: flex;
-        justify-content: space-evenly; */
+    justify-content: space-evenly; */
+    padding: 0px 20px;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
   }
   .card-container img {
     border-radius: 12px;
+    width: 100%;
   }
   .card-container {
     /* margin: 12%; */
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    max-width: 400px;
+    margin: 42px 0px;
     border-radius: 12px;
     border: 2px solid #112e42;
     box-shadow: 5px 5px 5px #112e42;
@@ -963,11 +973,18 @@
     display: flex;
     justify-content: space-evenly;
   }
- 
-  .card-container {
-    margin: 20px;
+  .project-details {
+    padding: 0px 20px;
+    display: grid;
+    grid-template-columns: auto auto;
     /* border: 2px solid red; */
-    margin-top: 5%;
+  }
+  .card-container {
+    /* margin: 20px;
+    /* border: 2px solid red; */
+    /* margin-top: 5%;  */
+    max-width: 400px;
+    margin: 40px 20px;
     border-radius: 12px;
     border: 2px solid #112e42;
     box-shadow: 2px 2px 2px #112e42;
@@ -975,6 +992,7 @@
   }
   .card-container img {
     border-radius: 12px;
+    width: 100%;
   }
   .card-body h5 {
     color: white;
@@ -992,6 +1010,8 @@
   }
   .project-details {
     padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
     /* border: 2px solid red; */
   }
   .project-subdetails{
@@ -1001,7 +1021,9 @@
   }
 
   .card-container {
-    margin-top: 5%;
+    /* margin-top: 5%; */
+    max-width: 400px;
+    margin: 40px 20px;
     border-radius: 12px;
     border: 2px solid #112e42;
     box-shadow: 5px 5px 5px #112e42;
@@ -1009,6 +1031,7 @@
   }
   .card-container img {
     border-radius: 12px;
+    width: 100%;
   }
   .card-body h5 {
     color: white;
@@ -1025,6 +1048,8 @@
   }
   .project-details {
     padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
   }
 
   .project-subdetails{
@@ -1035,9 +1060,12 @@
 
   .project-details img {
     border-radius: 12px;
+    width: 100%;
   }
   .card-container {
-    margin-top: 5%;
+    /* margin-top: 5%; */
+    max-width: 400px;
+    margin: 40px 20px;
     border-radius: 12px;
     border: 2px solid #112e42;
     box-shadow: 5px 5px 5px #112e42;
@@ -1351,16 +1379,22 @@
 @media (max-width:550px) {
 
   .child-home{
-    padding: 0px 20px;
+    padding: 0px 0px !important;
   }
   .skills1{
-    padding: 0px 20px;
+    padding: 0px 0px;
   }
   .education1{
-    padding: 0px 20px;
+    padding: 0px 0px;
   }
   .about2{
-     padding: 0px 20px;
+     padding: 0px 0px;
+  }
+  .about h3{
+    padding: 0px 0px;
+  }
+  .about p{
+    padding: 0px 10px;
   }
   .header {
     padding: 0px 0px;
@@ -1398,7 +1432,7 @@
   }
   .footer-text {
     color: white;
-    font-size: 10px !important;
+    font-size: 18px !important;
     font-weight: 500 !important;
     padding: 19px 0px;
   }
