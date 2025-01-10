@@ -316,7 +316,7 @@
 /* about */
 
 .about {
-  padding: 5px;
+  padding: 20px 0px; 
   background-color: #112e42;
   display: flex;
   justify-content: center;
@@ -334,22 +334,24 @@
   color: #00abf0;
 }
 .about-img {
-  padding:0px 30px;
+  padding: 0px 30px;
   text-align: center;
+  width: 50%;
 }
 
 .about-img img {
-  width: 100%;
+  width: 90%;
   height: 80%;
   border-radius: 50%;
 }
 .ndabt {
-  padding: 0px 80px;
+  padding: 0px 40px;
+  width: 50%;
 }
 
 @media (max-width: 750px) {
   .about-img img {
-    width: 100%;
+    width: 90%;
     width: 80%;
     border-radius: 50%;
   }
@@ -607,6 +609,16 @@
 
 
 /*  Skills -section */
+
+.skillC {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skillH img, .skillCss img, .skillJs img, .skillBoot img, .skilltail img , 
+.skillReact img , .skillNode img, .skillexpress img, .skillmongo img, 
+.skillgit img, .skillgithub img , .skillpost img{ 
+  width: 110px;
+}
 .skills1{
   background-color: #112e42;
   padding: 0px 80px;
@@ -714,8 +726,8 @@
   }
   .skills-container {
     padding: 10px;
-    display: grid;
-    grid-template-columns: 6fr 6fr;
+    /* display: grid;
+    grid-template-columns: 6fr 6fr; */
   }
 
   .skills-row {
@@ -793,7 +805,7 @@
     color: white;
   }
   .content h3,
-  p {
+  p, h4, li {
     padding: 2px;
     color: white;
   }
@@ -805,8 +817,8 @@
   }
   .skills-container {
     padding: 10px;
-    display: grid;
-    grid-template-columns: 6fr 6fr;
+    /* display: grid; */
+    /* grid-template-columns: 6fr 6fr; */
   }
 
   .skills-row {
@@ -883,7 +895,7 @@
     padding: 5px;
     color: white;
   }
-  .content h3,
+  .content h3, h4, li,
   p {
     padding: 2px;
     color: white;
@@ -896,8 +908,8 @@
   }
   .skills-container {
     padding: 10px;
-    display: grid;
-    grid-template-columns: 6fr 6fr;
+    /* display: grid;
+    grid-template-columns: 6fr 6fr; */
   }
 
   .skills-row {
@@ -1483,7 +1495,8 @@
 }
 
 .dev-pic{
-  z-index: 2;
+  padding: 0px 130px;
+  /* z-index: 2; */
   position: relative;
   animation: slideRight 2s forwards;
 }
