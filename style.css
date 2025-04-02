@@ -1702,3 +1702,9 @@ padding: 10px 0px;
     padding: 0px 105px;
   }
 }
+@media (max-width:575px){
+  .project-details {
+    padding: 0px 0px;
+  }
+}
+
