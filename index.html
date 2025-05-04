@@ -1,174 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ican link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <title>Dinesh Portfolio</title>
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Ican link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-  <title>Dinesh Portfolio</title>
-  <!-- bootstrap link -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-  <link rel="stylesheet" href="./style.css" />
-</head>
 
-<body>
-  <!-- header-section  -->
-  <header class="header" id="home">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid ">
-        <a class="navbar-brand" id="logo" href="#">Dinesh Singh.</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- header-section  -->
+    <header class="header" id="home">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <div>
+            <a class="navbar-brand" id="logo" href="#">Dinesh Singh</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" id="heading" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="heading" href="#about"> About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="heading" href="#education"> Education</a>
-            </li>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar_list">
+              <li class="nav-item">
+                <a class="nav-link" id="heading" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="heading" href="#about"> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="heading" href="#education">
+                  Education</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="heading" href="#skills"> Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="heading" href="#project"> Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="heading" href="#contact"> Contact</a>
+              </li>
+            </ul>
+          </div>
+         
+        </div>
+      </nav>
+    </header>
 
-            <li class="nav-item">
-              <a class="nav-link" id="heading" href="#skills"> Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="heading" href="#project"> Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="heading" href="#contact"> Contact</a>
-            </li>
-          </ul>
+    <!-- home-section -->
+    <section class="main-home">
+      <div class="child-home">
+        <div class="home" id="home">
+          <div class="home-content">
+            <h1>Hi, I'm <span class="animated"> Dinesh Singh </span></h1>
+            <div class="text-animate">MERN stack developer</div>
+            <p>
+              Hello there! I'm Dinesh Singh, a passionate frontend developer and
+              open source contributor, on a mission to craft beautiful and
+              user-friendly digital experiences. With a deep-rooted love for web
+              development, I find joy in bringing creative designs to life
+              through code.
+            </p>
+            <div class="btn-box">
+              <a id="hireme" href="#contact" class="btn"> Hire Me</a>
+              <a id="lets" href="#about" class="btn"> Let's Talk </a>
+            </div>
+            <div class="home-sci">
+              <a href="https://github.com/dksingh001"
+                ><i class="bi bi-github"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/dinesh-singh-0bba5b1a8">
+                <i class="bi bi-linkedin"></i
+              ></a>
+              <a href="https://mail.google.com">
+                <i class="bi bi-envelope"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="dev-pic">
+            <img src="./photo/ani.gif" alt="developer_images" />
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
+    </section>
 
-  <!-- home-section -->
-  <section class="main-home">
-    <div class="child-home">
-      <div class="home" id="home">
-        <div class="home-content">
-          <h1>Hi, I'm <span class="animated"> Dinesh Singh </span></h1>
-          <div class="text-animate">MERN stack developer</div>
-          <p>
-            Hello there! I'm Dinesh Singh, a passionate frontend developer and
-            open source contributor, on a mission to craft beautiful and
-            user-friendly digital experiences. With a deep-rooted love for web
-            development, I find joy in bringing creative designs to life through
-            code.
-          </p>
-          <div class="btn-box">
-            <a id="hireme" href="#contact" class="btn"> Hire Me</a>
-            <a id="lets" href="#about" class="btn"> Let's Talk </a>
-          </div>
-          <div class="home-sci">
-            <a href="https://github.com/dksingh001"><i class="bi bi-github"></i></a>
-            <a href="https://www.linkedin.com/in/dinesh-singh-0bba5b1a8">
-              <i class="bi bi-linkedin"></i></a>
-            <a href="https://mail.google.com"> <i class="bi bi-envelope"></i></a>
-          </div>
-        </div>
-    
-        <div class="dev-pic">
-          <img src="./photo/ani.gif" alt="developer_images" />
-        </div>
-      </div>
-    </div>
-   
-  </section>
-
-  <!-- About-section  -->
-  <section class="about1">
-    <div class="about2">
+    <!-- About-section  -->
+    <section class="about1">
+      <div class="about2">
         <h2 class="heading">About <span>Me</span></h2>
-    <div class="about" id="about">
-    <div class="about-img">
-      <img src="./photo/DineshPro.jpg" alt="coming soon" />
-    </div>
-    <div class="ndabt">
-      <h3>MERN stack developer !</h3>
-      <p>
-        Contributing to the open-source community has been an enriching
-        experience. I firmly believe in the power of collaboration and giving
-        back to the developer community that has provided me with so much
-        knowledge. By actively contributing to open-source projects, I am
-        continuously learning from and sharing insights with other developers
-        worldwide.
-      </p>
-      <p>
-        I'm always excited to connect with fellow developers, designers, and
-        enthusiasts. Whether it's discussing new ideas, collaborating on
-        projects, or exploring opportunities, feel free to reach out to me.
-        Together, we can make the web a more delightful and accessible place.
-      </p>
-      <p>
-        Thank you for visiting my portfolio, and I look forward to sharing my
-        journey with you!
-      </p>
-      <div class="cv-box">
-        <!-- href="https://drive.google.com/file/d/1JsXtNKdVQxosymrVXjpSpSyAxlstc518/view" -->
-        <a href="https://drive.google.com/file/d/1rixkTXtYbxLKQg87p5T1IIuOrHn64IlT/view?usp=sharing" class="btn"
-          id="downloadCV" target="_blank">Download CV</a>
+        <div class="about" id="about">
+          <div class="about-img">
+            <img src="./photo/DineshPro.jpg" alt="coming soon" />
+          </div>
+          <div class="ndabt">
+            <h3>MERN stack developer !</h3>
+            <p>
+              Contributing to the open-source community has been an enriching
+              experience. I firmly believe in the power of collaboration and
+              giving back to the developer community that has provided me with
+              so much knowledge. By actively contributing to open-source
+              projects, I am continuously learning from and sharing insights
+              with other developers worldwide.
+            </p>
+            <p>
+              I'm always excited to connect with fellow developers, designers,
+              and enthusiasts. Whether it's discussing new ideas, collaborating
+              on projects, or exploring opportunities, feel free to reach out to
+              me. Together, we can make the web a more delightful and accessible
+              place.
+            </p>
+            <p>
+              Thank you for visiting my portfolio, and I look forward to sharing
+              my journey with you!
+            </p>
+            <div class="cv-box">
+              <!-- href="https://drive.google.com/file/d/1JsXtNKdVQxosymrVXjpSpSyAxlstc518/view" -->
+              <a
+                href="https://drive.google.com/file/d/1rixkTXtYbxLKQg87p5T1IIuOrHn64IlT/view?usp=sharing"
+                class="btn"
+                id="downloadCV"
+                target="_blank"
+                >Download CV</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Education-section -->
-  <section class="education1">
-    <div class="education" id="education">
-      <h2 class="heading">My <span>Journey</span></h2>
-      <div class="converting">
-        <div class="education-row">
-          <div class="education-column">
-            <h3 class="title">Education</h3>
-            <div class="education-box">
-              <div class="education-content">
-                <div class="content">
-                  <div class="year">
-                    <i class="bi bi-calendar-check"></i> 2018-2022
+    <!-- Education-section -->
+    <section class="education1">
+      <div class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+        <div class="converting">
+          <div class="education-row">
+            <div class="education-column">
+              <h3 class="title">Education</h3>
+              <div class="education-box">
+                <div class="education-content">
+                  <div class="content">
+                    <div class="year">
+                      <i class="bi bi-calendar-check"></i> 2018-2022
+                    </div>
+                    <h3>Bachelor Degree - Punjab technical University</h3>
+                    <p>
+                      I earned my Bachelor's degree in
+                      <span>Information Technology</span> from Adesh Institude
+                      of technology, Punjab ( Affiliated P.T.U. ). Throughout my
+                      academic journey, I maintained a commendable
+                      <span> CGPA of 7.4</span> , reflecting my dedication to
+                      learning and excelling in my field of study.
+                    </p>
                   </div>
-                  <h3>Bachelor Degree - Punjab technical University</h3>
-                  <p>
-                    I earned my Bachelor's degree in
-                    <span>Information Technology</span> from Adesh Institude of technology, Punjab (
-                      Affiliated P.T.U. ). Throughout my academic journey,
-                    I maintained a commendable <span> CGPA of 7.4</span> ,
-                    reflecting my dedication to learning and excelling in my field
-                    of study.
-                  </p>
                 </div>
-              </div>
-              <div class="education-content">
-                <div class="content">
-                  <div class="year">
-                    <i class="bi bi-calendar-check"></i> 2016-2018
+                <div class="education-content">
+                  <div class="content">
+                    <div class="year">
+                      <i class="bi bi-calendar-check"></i> 2016-2018
+                    </div>
+                    <h3>BSEB</h3>
+                    <p>
+                      I completed my Higher Secondary School Certificate (BSEB)
+                      from +2 Nation high School.
+                    </p>
                   </div>
-                  <h3>BSEB</h3>
-                  <p>
-                    I completed my Higher Secondary School Certificate (BSEB) from
-                    +2 Nation high School.
-                  </p>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="education-column">
-            <h3 class="title">
-              Experienced</h3>
-            <!-- <div class="education-box">
+            <div class="education-column">
+              <h3 class="title">Experienced</h3>
+              <!-- <div class="education-box">
               <div class="education-content">
                 <div class="content">
                   <div class="year">
@@ -186,238 +210,328 @@
               </div>
     
             </div> -->
-            <div class="education-box">
-              <div class="education-content">
-                <div class="content">
-                  <div class="year">
-                    <i class="bi bi-calendar-check"></i> Feb 2024 - leading...
+              <div class="education-box">
+                <div class="education-content">
+                  <div class="content">
+                    <div class="year">
+                      <i class="bi bi-calendar-check"></i> Feb 2024 - leading...
+                    </div>
+                    <h3>XAPOTECH SYSTEMS, Noida</h3>
+                    <p>
+                      XapoTech Systems is seeking a talented and passionate MERN
+                      Stack Developer to join our dynamic team. As a key member
+                      of our development team, you will be responsible for
+                      designing, developing, and maintaining high-quality web
+                      applications using the MERN stack (MongoDB, Express.js,
+                      React.js, and Node.js).
+                    </p>
+
+                    <h4>Responsibilities:</h4>
+
+                    <li>
+                      Design, develop, and maintain robust and scalable web
+                      applications using the MERN stack.
+                    </li>
+                    <li>
+                      Write clean, well-documented, and maintainable code.
+                    </li>
+                    <li>
+                      Participate in all phases of the software development
+                      lifecycle, from requirements gathering and design to
+                      testing and deployment.
+                    </li>
+                    <li>
+                      Collaborate effectively with cross-functional teams,
+                      including designers, product managers, and QA engineers.
+                      Troubleshoot and debug applications.
+                    </li>
+                    <li>
+                      Stay up-to-date with the latest technologies and industry
+                      best practices.
+                    </li>
+                    <li>
+                      Contribute to the improvement of our development processes
+                      and tools.
+                    </li>
+
+                    <h4>Qualifications:</h4>
+                    <li>
+                      1+ years of experience in developing web applications
+                      using the MERN stack.
+                    </li>
+                    <li>
+                      Strong proficiency in JavaScript, including ES6+ syntax.
+                    </li>
+                    <li>
+                      Experience with React.js, including state management
+                      (e.g., Redux, Context API).
+                    </li>
+                    <li>
+                      Experience with Node.js and Express.js for building
+                      RESTful APIs.
+                    </li>
+                    <li>Experience with MongoDB or other NoSQL databases.</li>
+                    <li>Experience with Git and version control.</li>
+                    <li>Excellent problem-solving and analytical skills.</li>
+                    <li>Strong communication and teamwork skills.</li>
+                    <li>A passion for building high-quality software.</li>
                   </div>
-                  <h3>XAPOTECH SYSTEMS, Noida</h3>
-                  <p>
-                    XapoTech Systems is seeking a talented and passionate MERN Stack Developer to join our dynamic team. 
-                    As a key member of our development team, you will be responsible for designing,
-                     developing, and maintaining high-quality web applications using the MERN stack (MongoDB, Express.js, React.js, and Node.js).
-                  </p>
-                  
-                   <h4> Responsibilities:</h4>
-
-             <li>Design, develop, and maintain robust and scalable web applications using the MERN stack.</li>
-              <li>Write clean, well-documented, and maintainable code.</li>
-              <li>Participate in all phases of the software development lifecycle, from requirements gathering and design to testing and deployment.              </li>
-              <li> Collaborate effectively with cross-functional teams, including designers, product managers, and QA engineers.
-                Troubleshoot and debug applications.</li>
-                <li>Stay up-to-date with the latest technologies and industry best practices.
-                 </li>
-                  <li>Contribute to the improvement of our development processes and tools.
-                  </li>
-
-              <h4>  Qualifications: </h4>
-            <li> 1+ years of experience in developing web applications using the MERN stack.
-            </li>
-             <li>Strong proficiency in JavaScript, including ES6+ syntax.
-            </li>
-            <li> Experience with React.js, including state management (e.g., Redux, Context API).</li>
- <li>Experience with Node.js and Express.js for building RESTful APIs.</li>
-<li>Experience with MongoDB or other NoSQL databases.</li>
-<li>Experience with Git and version control.</li>
-<li>Excellent problem-solving and analytical skills.</li>
-<li>Strong communication and teamwork skills.</li>
-<li>A passion for building high-quality software.</li>
-                  
-    
                 </div>
               </div>
-    
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Skills-section -->
-  <section class="skills1">
-    <div class="skills" id="skills">
-      <div>
-        <h2 class="heading">My <span>skills</span></h2>
-        <div class="skills-container">
-          <div class="skillC">
-             <div class="skillH">
-              <h5 id="cscolor"> HTML</h5>
-              <img src="./photo/html.avif" alt="">
-             </div>
-             <div class="skillCss">
-             <h5 id="cscolor">CSS3</h5>
-              <img src="./photo/css1.jpg" alt="">
-             </div>
-             <div class="skillJs">
-             <h5 id="cscolor">JavaScript</h5>
-              <img src="./photo/js.png" alt="">
-             </div>
-             <div class="skillBoot">
-              <h5 id="cscolor">Bootstrap</h5>
-               <img src="./photo/bot.png" alt="">
+    <!-- Skills-section -->
+    <section class="skills1">
+      <div class="skills" id="skills">
+        <div>
+          <h2 class="heading">My <span>skills</span></h2>
+          <div class="skills-container">
+            <div class="skillC">
+              <div class="skillH">
+                <h5 id="cscolor">HTML</h5>
+                <img src="./photo/html.avif" alt="" />
+              </div>
+              <div class="skillCss">
+                <h5 id="cscolor">CSS3</h5>
+                <img src="./photo/css1.jpg" alt="" />
+              </div>
+              <div class="skillJs">
+                <h5 id="cscolor">JavaScript</h5>
+                <img src="./photo/js.png" alt="" />
+              </div>
+              <div class="skillBoot">
+                <h5 id="cscolor">Bootstrap</h5>
+                <img src="./photo/bot.png" alt="" />
               </div>
               <div class="skilltail">
                 <h5 id="cscolor">Tailwind</h5>
-                 <img src="./photo/tailwind1.png" alt="">
-                </div>
-                <div class="skillReact">
+                <img src="./photo/tailwind1.png" alt="" />
+              </div>
+              <div class="skillReact">
                 <h5 id="cscolor">ReactJS</h5>
-                 <img src="./photo/reactjs.png" alt="">
-                 </div>
-                 <div class="skillNode">
-                  <h5 id="cscolor">NodeJS</h5>
-                   <img src="./photo/nodejs.png" alt="">
-                   </div>
-                   <div class="skillexpress">
-                    <h5 id="cscolor">ExpressJS</h5>
-                     <img src="./photo/express.png" alt="">
-                     </div>
-                     <div class="skillmongo">
-                      <h5 id="cscolor">MongoDB</h5>
-                       <img src="./photo/mongodb.png" alt="">
-                       </div>
-                       <div class="skillgit">
-                        <h5 id="cscolor">Git</h5>
-                         <img src="./photo/git.png" alt="">
-                         </div>
-                         <div class="skillgithub">
-                          <h5 id="cscolor">github</h5>
-                           <img src="./photo/gith.png" alt="">
-                           </div>
-                           <div class="skillpost">
-                            <h5 id="cscolor">Postman</h5>
-                             <img src="./photo/postman.jpg" alt="">
-                             </div>
-          </div>
-           </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Project-section -->
-   <section class="project" id="project">
-    <div class="prt12">
-      <h1 class="heading">My <span>Project</span></h1>
-      <div class="project-details">
-        <!-- <div class="project-subdetails"> -->
-          <div class="card-container" >
-            <img src="./photo/Netflix.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Netflix </h5>
-              <p class="card-text">
-                Creating a simple Netflix using HTML, CSS, and Bootstrap involves designing the user interface,
-                representing the Netflix, and adding basic functionality.
-              </p>
-              <a href="https://fakesnetflix.netlify.app/" class="btn btn-primary">Live</a>
-              <a href="https://github.com/Dksinhg/Netflix-India" class="btn btn-primary">Github</a>
+                <img src="./photo/reactjs.png" alt="" />
+              </div>
+              <div class="skillNode">
+                <h5 id="cscolor">NodeJS</h5>
+                <img src="./photo/nodejs.png" alt="" />
+              </div>
+              <div class="skillexpress">
+                <h5 id="cscolor">ExpressJS</h5>
+                <img src="./photo/express.png" alt="" />
+              </div>
+              <div class="skillmongo">
+                <h5 id="cscolor">MongoDB</h5>
+                <img src="./photo/mongodb.png" alt="" />
+              </div>
+              <div class="skillgit">
+                <h5 id="cscolor">Git</h5>
+                <img src="./photo/git.png" alt="" />
+              </div>
+              <div class="skillgithub">
+                <h5 id="cscolor">github</h5>
+                <img src="./photo/gith.png" alt="" />
+              </div>
+              <div class="skillpost">
+                <h5 id="cscolor">Postman</h5>
+                <img src="./photo/postman.jpg" alt="" />
+              </div>
             </div>
           </div>
-          <div class="card-container" >
+        </div>
+      </div>
+    </section>
+
+    <!-- Project-section -->
+    <section class="project" id="project">
+      <div class="prt12">
+        <h1 class="heading">My <span>Project</span></h1>
+        <div class="project-details">
+          <!-- <div class="project-subdetails"> -->
+          <div class="card-container">
+            <img src="./photo/blog.PNG" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Blog website</h5>
+              <p class="card-text">
+                Connecting the Blob website with the backend enhances real-time data synchronization, boosts performance, and ensures seamless content delivery, providing a dynamic, scalable, and secure user experience while enabling efficient content management and personalized interactions across platforms. This integration streamlines updates and supports the growth of modern web applications.
+               </p>
+              <a
+                href="https://blog-front-cyan.vercel.app/"
+                class="btn btn-primary"
+                >Live</a
+              >
+              <a
+                href="https://github.com/dksingh001/Blog-front"
+                class="btn btn-primary"
+                >Github</a
+              >
+            </div>
+          </div>
+
+          <div class="card-container">
             <img src="./photo/Pizza.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Pizza Order Clone</h5>
               <p class="card-text">
-                The React.js Pizza Order System is a web application that allows customers to order
-                their favorite pizzas online. The app provides an interactive and user-friendly interfacefor selecting
-                pizza options, customizing toppings, and placing orders seamlessly.
+                The Pizza Order Clone website offers a seamless, user-friendly interface for ordering customized pizzas, integrating real-time order tracking, secure payment options, and efficient delivery management, ensuring a smooth, personalized experience for customers while enabling restaurant owners to manage orders, inventory, and customer preferences with ease.
               </p>
               <a href="#" class="btn btn-primary">Live</a>
-              <a href="https://github.com/Dksinhg/Domino_Pizza_order_Project" class="btn btn-primary">Github</a>
+              <a
+                href="https://github.com/Dksinhg/Domino_Pizza_order_Project"
+                class="btn btn-primary"
+                >Github</a
+              >
             </div>
           </div>
-        <!-- </div> -->
-        <!-- <div class="project-subdetails"> -->
-          <div class="card-container" >
+          <!-- </div> -->
+          <!-- <div class="project-subdetails"> -->
+          <div class="card-container">
             <img src="./photo/desh.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Ecommerce DeshBoard </h5>
+              <h5 class="card-title">Ecommerce DeshBoard</h5>
               <p class="card-text">
-                An E-commerce dashboard project developed using React and Express technologies would be a web-based
-                application designed to provide a comprehensive and user-friendly interface for managing various aspects
-                of an online store.
+                An E-commerce dashboard project developed using React and
+                Express technologies would be a web-based application designed
+                to provide a comprehensive and user-friendly interface for
+                managing various aspects of an online store.
               </p>
               <a href="#" class="btn btn-primary">Live</a>
-              <a href="https://github.com/Dksinhg/E-commerce-Dashboard-" class="btn btn-primary">Github</a>
+              <a
+                href="https://github.com/Dksinhg/E-commerce-Dashboard-"
+                class="btn btn-primary"
+                >Github</a
+              >
             </div>
           </div>
-          <div class="card-container" >
-            <img src="./photo/chess.png" class="card-img-top" alt="..." />
+          <div class="card-container">
+            <img src="./photo/ecomm.PNG" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Chess Layout </h5>
+              <h5 class="card-title">Ecommerce website for customer</h5>
               <p class="card-text">
-                Creating a simple Chess game using HTML, CSS, and Bootstrap involves designing the user interface,
-                representing the chessboard, and adding basic functionality.
+                The eCommerce website’s backend integration allows customers to enjoy a personalized shopping experience, with real-time inventory updates, secure payment processing, and tailored product recommendations. It ensures smooth order tracking, fast checkout, and accurate delivery estimates, while providing customers with seamless interactions and quick access to their purchase history and preferences.
+
               </p>
-              <a href="https://chess-layout.netlify.app/" class="btn btn-primary">Live</a>
-              <a href="https://github.com/Dksinhg/Chess-layout" class="btn btn-primary">Github</a>
+              <a
+                href="https://ecom-dash-front.vercel.app/"
+                class="btn btn-primary"
+                >Live</a
+              >
+              <a
+                href="https://github.com/dksingh001/ecom-dash-front"
+                class="btn btn-primary"
+                >Github</a
+              >
             </div>
           </div>
-        <!-- </div> -->
-        <!-- <div class="project-subdetails"> -->
-          <div class="card-container" >
-            <img src="./photo/profile.png" class="card-img-top" alt="..." />
+          <!-- </div> -->
+          <!-- <div class="project-subdetails"> -->
+          <div class="card-container">
+            <img src="./photo/dash.PNG " class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Protfolio </h5>
+              <h5 class="card-title">Ecommerce dashboard</h5>
               <p class="card-text">
-                Creating a simple Portfolio using HTML, CSS, and Bootstrap involves designing the user interface,
-                representing the chessboard, and adding basic functionality and fully responsive website.
+                The eCommerce dashboard website's backend integration streamlines inventory management, order tracking, and customer insights, providing real-time data synchronization, enhancing decision-making, and improving operational efficiency. It offers seamless reporting, secure transactions, and personalized user experiences, enabling businesses to optimize sales strategies, manage stock levels, and track performance across platforms effortlessly.
+
               </p>
-              <a href="#" class="btn btn-primary">Live</a>
-              <a href="#" class="btn btn-primary">Github</a>
+              <a href="https://ecom-dash-admin.vercel.app/Addproduct" class="btn btn-primary">Live</a>
+              <a href="https://github.com/dksingh001/ecom-dash-admin" class="btn btn-primary">Github</a>
             </div>
           </div>
-        <!-- </div> -->
-  
+          <!-- </div> -->
+        </div>
       </div>
-    </div>
-  </section> 
+    </section>
 
-  <!-- Contact-section -->
-  <section class="contact" id="contact">
-    <h2 class="heading">Contact <span>Me</span></h2>
-    <div class="from-container">
-      <form>
-        <div class="input-box">
-          <div class="input-field">
-            <input type="text" placeholder="Full Name" name="full name" required>
-            <span class="focus"></span>
+    <!-- Contact-section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <div class="from-container">
+        <form>
+          <div class="input-box">
+            <div class="input-field">
+              <input
+                type="text"
+                placeholder="Full Name"
+                name="full name"
+                required
+              />
+              <span class="focus"></span>
+            </div>
+            <div class="input-field">
+              <input
+                type="email"
+                placeholder="Email Address"
+                name="email Address"
+                required
+              />
+              <span class="focus"></span>
+            </div>
           </div>
-          <div class="input-field">
-            <input type="email" placeholder="Email Address" name="email Address" required>
-            <span class="focus"></span>
+          <div class="input-box">
+            <div class="input-field">
+              <input
+                type="number"
+                placeholder="Mobile Number"
+                name="mobile Number"
+                required
+              />
+              <span class="focus"></span>
+            </div>
+            <div class="input-field">
+              <input
+                type="email"
+                placeholder="Email Subject"
+                name="email Subject"
+                required
+              />
+              <span class="focus"></span>
+            </div>
           </div>
-        </div>
-        <div class="input-box">
-          <div class="input-field">
-            <input type="number" placeholder="Mobile Number" name="mobile Number" required>
-            <span class="focus"></span>
+          <div class="textarea-field">
+            <textarea
+              name="Your message"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your message"
+            ></textarea>
           </div>
-          <div class="input-field">
-            <input type="email" placeholder="Email Subject" name="email Subject" required>
-            <span class="focus"></span>
+          <div class="button-area">
+            <button type="submit" class="btn">Submit</button>
           </div>
-        </div>
-        <div class="textarea-field">
-          <textarea name="Your message" id="" cols="30" rows="10" placeholder="Your message"></textarea>
-        </div>
-        <div class="button-area">
-          <button type="submit" class="btn"> Submit</button>
-        </div>
-      </form>
-    </div>
-  </section>
+        </form>
+      </div>
+    </section>
 
-  <!-- Footer-section  -->
-  <section class="footer">
-    <div class="footer-text">
-      Copyright © 2023 by Dinesh Singh | All Rights Reserved.
-    </div>
-    <div class="footer-iconTop">
-      <a href="#"><i class="bi bi-arrow-up" id="icans"></i></a>
-    </div>
-  </section>
-</body>
+    <!-- Footer-section  -->
+    <section class="footer">
+      <div class="footer-text">
+        Copyright © 2023 by Dinesh Singh | All Rights Reserved.
+      </div>
+      <div class="footer-iconTop">
+        <a href="#"><i class="bi bi-arrow-up" id="icans"></i></a>
+      </div>
+    </section>
+  </body>
 
+  <script>
+    // Get all nav links
+    const navLinks = document.querySelectorAll('.nav-link');
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+  
+    // When any nav link is clicked
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        // Collapse the menu (remove Bootstrap's "show" class)
+        const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+          toggle: false
+        });
+        bsCollapse.hide();
+      });
+    });
+  </script>
+  
 </html>
