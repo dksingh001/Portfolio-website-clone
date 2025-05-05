@@ -11,7 +11,7 @@ body {
 .header {
   position: sticky;
   top: 0;
-  background-color: rgb(65, 105, 225);
+  background-color: #0c2130;
   z-index: 3;
   padding: 0px 105px;
   max-width: 1530px;
@@ -742,6 +742,7 @@ body {
 
 .skillC {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -1193,6 +1194,7 @@ body {
   .card-container img {
     border-radius: 12px;
     width: 100%;
+    height: 30vh;
   }
 
   .card-container {
@@ -1258,6 +1260,7 @@ body {
   .card-container img {
     border-radius: 12px;
     width: 100%;
+    height: 30vh;
   }
 
   .card-body h5 {
@@ -1309,6 +1312,7 @@ body {
   .card-container img {
     border-radius: 12px;
     width: 100%;
+    height: 30vh;
   }
 
   .card-body h5 {
@@ -1348,8 +1352,9 @@ body {
   }
 
   .project-details img {
-    border-radius: 12px;
+    /* border-radius: 12px; */
     width: 100%;
+    height: 30vh;
   }
 
   .card-container {
