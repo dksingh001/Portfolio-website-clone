@@ -504,17 +504,19 @@ body {
 
   .education-row {
     padding: 10px 0px;
-    margin: 10px 0px;
+    /* margin: 10px 0px; */
     /* display: grid;
         grid-template-columns: 6fr 6fr; */
   }
 
   .education-column {
     padding: 0px 10px;
+    padding: 0px 10px 20px 10px;
     /* margin: 10px; */
   }
 
   .title {
+    padding: 10px 0px 0px 0px;
     color: white;
     font-weight: bold;
     font-family: roboto;
@@ -1918,8 +1920,9 @@ body {
   }
 
   .about-img img {
-    padding: 162px 0px 0px 0px;
-    height: 80vh;
+    padding: 100px 0px 150px 0px;
+    height: 70vh;
+
   }
 
   .child-home {
@@ -1945,9 +1948,9 @@ body {
   }
 
   .about-img img {
-    height: 85vh;
+    height: 80vh;
     width: 400px;
-    padding: 70px 0px 70px 0px;
+    padding: 50px 0px 50px 0px;
   }
 
   .dev-pic {
