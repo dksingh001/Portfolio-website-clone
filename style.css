@@ -2052,3 +2052,9 @@ body {
 a.btn.btn-primary {
   font-family: roboto;
 }
+
+.contact {
+    max-width: 1530px;
+    width: 100%;
+    margin: auto;
+  }
